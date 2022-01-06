@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swed32", "swed32\swed32.csproj", "{E141981B-4242-4DEF-BE81-951A58449F92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E141981B-4242-4DEF-BE81-951A58449F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E141981B-4242-4DEF-BE81-951A58449F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E141981B-4242-4DEF-BE81-951A58449F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E141981B-4242-4DEF-BE81-951A58449F92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF8601F1-B3CA-423B-8938-43C2276E4E35}
+	EndGlobalSection
+EndGlobal
