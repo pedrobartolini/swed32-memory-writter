@@ -58,13 +58,13 @@ namespace swed32
         #region readbytes
         public byte[] ReadBytes(IntPtr addy,int bytes)
         {
-            byte[] buffer = new byte[4];
+            byte[] buffer = new byte[bytes];
             ReadProcessMemory(proc.Handle, addy,buffer, buffer.Length, IntPtr.Zero);
             return buffer;
         }
         public byte[] ReadBytes(IntPtr addy,int offset, int bytes)
         {
-            byte[] buffer = new byte[4];
+            byte[] buffer = new byte[bytes];
             ReadProcessMemory(proc.Handle, IntPtr.Add(addy,offset), buffer, buffer.Length, IntPtr.Zero);
             return buffer;
         }
